@@ -15,6 +15,8 @@ myGun = obj_EQgun ;
 instance_create_layer(x, y, "ins_Gun", myGun) ;
 newGun = true ;
 
+isDead = false;
+
 
 
 

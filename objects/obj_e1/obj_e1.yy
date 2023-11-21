@@ -14,7 +14,10 @@
     "name": "Enemy",
     "path": "folders/Objects/Characters/Enemy.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_unit_orugin",
+    "path": "objects/obj_unit_orugin/obj_unit_orugin.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
