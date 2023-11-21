@@ -40,9 +40,11 @@ hSpeed = move * walkSpeed;
 vSpeed = vSpeed + vGravity ;
 
 // Jump system
-if (place_meeting(x,y+1,obj_Borigin)) && (key_jump) 
+canJamp -= 1;
+if (canJamp > 0) && (key_jump) 
 {
     vSpeed = -jumpS;
+	canJamp = 0;
 }
 
 // Horizontal event
@@ -81,6 +83,7 @@ if (!place_meeting(x, y+1, obj_Borigin))
 }
 else 
 {
+	canJamp = 10;
     image_speed = 1 ;
 	if (hSpeed == 0) 
 	{

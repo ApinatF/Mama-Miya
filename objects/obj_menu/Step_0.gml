@@ -15,7 +15,7 @@ if (menu_control)
 	}
 	if (keyboard_check_pressed(vk_enter))
 	{
-		menu_x_target = gui_width + 200;
+		menu_x_target = gui_width + 300;
 		menu_committed = menu_cursor;
 		menu_control = false;
 	}
@@ -26,7 +26,7 @@ if(menu_x > gui_width + 150 ) && (menu_committed != -1)
 {
 	switch (menu_committed) {
 	    case 3: default: SlideTransition(TRAN_MODE.NEXT); break;
-		case 2:
+		case 2: // Save errer
 		{
 			if(!file_exists(SAVEFILE))
 			{
@@ -42,6 +42,8 @@ if(menu_x > gui_width + 150 ) && (menu_committed != -1)
 			}
 			
 		} break;
+		/*case 1: 
+			break;*/
 	    case 0: game_end(); break;
 	}
 }

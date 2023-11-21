@@ -3,6 +3,7 @@ draw_set_font(MenuFont);
 draw_set_halign(fa_right);
 draw_set_valign(fa_bottom);
 
+
 for (var i = 0; i < menu_item; i++) 
 {
     var offset = 2;

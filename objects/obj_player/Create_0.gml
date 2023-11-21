@@ -5,6 +5,7 @@ vGravity = 0.5 ;
 
 walkSpeed = 6 ;
 jumpS = 15;
+canJamp = 0;
 
 hascontrol = true ;
 myGun = obj_EQgun ;
