@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bullet1",
-    "path": "sprites/spr_bullet1/spr_bullet1.yy",
+    "name": "spr_bulletS",
+    "path": "sprites/spr_bulletS/spr_bulletS.yy",
   },
   "spriteMaskId": null,
   "visible": true,

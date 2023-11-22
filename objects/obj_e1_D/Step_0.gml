@@ -1,3 +1,10 @@
+with (obj_e1_D) {
+    alarm_set(0,180);
+	
+	alarm_get(0);
+}
+
+
 if (done == 0)
 {
 	vSpeed = vSpeed + vGravity ;
@@ -30,6 +37,8 @@ if (done == 0)
 	}
 	y = y + vSpeed ;
 }
+
+
 
 
 

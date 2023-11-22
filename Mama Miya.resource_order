@@ -73,5 +73,6 @@
     {"name":"obj_collision","order":3,"path":"objects/obj_collision/obj_collision.yy",},
     {"name":"obj_Bridge","order":2,"path":"objects/obj_Bridge/obj_Bridge.yy",},
     {"name":"spr_player_fall","order":3,"path":"sprites/spr_player_fall/spr_player_fall.yy",},
+    {"name":"spr_bulletS","order":5,"path":"sprites/spr_bulletS/spr_bulletS.yy",},
   ],
 }

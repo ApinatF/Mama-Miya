@@ -32,14 +32,8 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 				with (instance_create_layer(x, y, "ins_Bullet", obj_bullet02)) // สร้างกระสุน
 				{
 				  speed = 20;
-				  direction = other.image_angle + random_range(-3, 3) ;
+				  direction = other.image_angle + random_range(-1, 1) ;
 				  image_angle = direction;
-				}
-				with (instance_create_layer(x, y, "ins_Bullet", obj_bullet02)) // สร้างกระสุน
-				{
-				  speed = 20;
-				  direction = other.image_angle + random_range(-5, 5) ;
-				  image_angle = direction + 30;
 				}
 				
 			}
