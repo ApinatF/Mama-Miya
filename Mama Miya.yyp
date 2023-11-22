@@ -48,7 +48,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.92",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"obj_block_brick","path":"objects/obj_block_brick/obj_block_brick.yy",},},
@@ -111,6 +111,7 @@
     {"roomId":{"name":"M01","path":"rooms/M01/M01.yy",},},
     {"roomId":{"name":"M02","path":"rooms/M02/M02.yy",},},
   ],
+  "templateType": null,
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
