@@ -51,7 +51,7 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 		
 			sprite_index = spr_handgun ;
 			ammo = infinity ;
-			setFiD = 25 ;
+			setFiD = 20 ;
 			setRec = 2
 			isGun = 0;
 			
