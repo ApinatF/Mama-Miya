@@ -27,7 +27,7 @@ y = y + vSpeed ;
 //Animation
 if (!place_meeting(x, y+1, obj_Borigin)) 
 {
-    sprite_index = spr_e1_F_J ; // jump
+    //sprite_index = spr_e1_F_J ; // jump
 	image_speed = 0 ;
 	if (sign(vSpeed > 0)) 
 	{
@@ -44,7 +44,7 @@ else
 	}
 	else 
 	{
-	    sprite_index = spr_e1_walk ; // Walk
+	    //sprite_index = spr_e1_walk ; // Walk
 	}
 }
 

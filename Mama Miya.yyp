@@ -48,7 +48,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"obj_block_brick","path":"objects/obj_block_brick/obj_block_brick.yy",},},
@@ -65,11 +65,14 @@
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},},
     {"id":{"name":"spr_e1_idle","path":"sprites/spr_e1_idle/spr_e1_idle.yy",},},
     {"id":{"name":"M01","path":"rooms/M01/M01.yy",},},
+    {"id":{"name":"spr_e1_idle19","path":"sprites/spr_e1_idle19/spr_e1_idle19.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"spr_handgun","path":"sprites/spr_handgun/spr_handgun.yy",},},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
     {"id":{"name":"spr_ak","path":"sprites/spr_ak/spr_ak.yy",},},
+    {"id":{"name":"spr_e1_dead20","path":"sprites/spr_e1_dead20/spr_e1_dead20.yy",},},
     {"id":{"name":"obj_ak","path":"objects/obj_ak/obj_ak.yy",},},
     {"id":{"name":"obj_bullet1","path":"objects/obj_bullet1/obj_bullet1.yy",},},
     {"id":{"name":"obj_blocks","path":"objects/obj_blocks/obj_blocks.yy",},},
@@ -108,7 +111,6 @@
     {"roomId":{"name":"M01","path":"rooms/M01/M01.yy",},},
     {"roomId":{"name":"M02","path":"rooms/M02/M02.yy",},},
   ],
-  "templateType": "game",
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
   ],
