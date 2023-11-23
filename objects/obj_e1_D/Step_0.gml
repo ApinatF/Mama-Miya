@@ -1,13 +1,10 @@
-with (obj_e1_D) {
-    alarm_set(0,180);
-	
-	alarm_get(0);
-}
+
 
 
 if (done == 0)
 {
 	vSpeed = vSpeed + vGravity ;
+	des = 3;
 
 	// Horizontal event
 	if (place_meeting(x+hSpeed,y,obj_Borigin)) 
@@ -37,6 +34,7 @@ if (done == 0)
 	}
 	y = y + vSpeed ;
 }
+
 
 
 
