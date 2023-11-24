@@ -1,3 +1,4 @@
+// PAUSED 
 {
 	if(state = PAUSED)
 	{
@@ -16,6 +17,41 @@
 		draw_text(1920 / 2 , 1080 / 2," PAUSED GGEZ " );
 	}
 }
+// Player Countdown
+if (isDead) 
+{
+    draw_set_font(MenuFont);
+		draw_set_color(c_black);
+		draw_set_alpha(1.0);
+		draw_surface(surface, 0, 0);
+		
+		draw_set_alpha(0.4);
+		draw_rectangle(0, 0, room_width, room_height, false);
+		
+		draw_set_alpha(1.0);
+		draw_set_color(c_white);
+		draw_set_halign(fa_center);
+		draw_set_halign(fa_middle);
+		
+		var t = "";
+		t += string(t_min);
+		t += "." ;
+		if (t_sec > 9)
+		{
+			t += ""+string(t_sec);
+		}
+		if (t_sec < 10)
+		{
+			t += "0"+string(t_sec)
+		}
+		t += ".";
+		t += string(t_mil)
+		
+		
+		draw_text(1920 / 2 , 1080 / 2,$"Countdown { t_min  }" );
+			
+}
+
 
 
 

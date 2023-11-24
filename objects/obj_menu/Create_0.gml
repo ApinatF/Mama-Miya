@@ -8,16 +8,17 @@ gui_height = display_get_gui_height();
 gui_margin = 32;
 
 menu_x = gui_width  ;
-menu_y = gui_height - gui_margin - 700;
+menu_y = gui_height - gui_margin -600 ;
 menu_x_target = gui_width - gui_margin;
 menu_speed = 25;
 menu_font = MenuFont;
 menu_itemheight = font_get_size(MenuFont);
 menu_committed = -1;
-menu_control =true ;
+menu_control = true ;
 
-menu[3] = "Start       Mission" ;
-menu[2] = "Continue Mission" ;
+menu[4] = "Start       Mission" ;
+menu[3] = "Continue Mission" ;
+menu[2] = "Tutorial" ;
 menu[1] = "Option" ;
 menu[0] = "Quit Game" ;
 

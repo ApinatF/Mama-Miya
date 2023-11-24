@@ -25,8 +25,8 @@ if (menu_control)
 if(menu_x > gui_width + 150 ) && (menu_committed != -1)
 {
 	switch (menu_committed) {
-	    case 3: default: SlideTransition(TRAN_MODE.NEXT); break;
-		case 2: // Save errer
+	    case 4: default: SlideTransition(TRAN_MODE.NEXT); break;
+		case 3: // Save errer
 		{
 			if(!file_exists(SAVEFILE))
 			{
@@ -42,6 +42,7 @@ if(menu_x > gui_width + 150 ) && (menu_committed != -1)
 			}
 			
 		} break;
+		//case 2: 
 		/*case 1: 
 			break;*/
 	    case 0: game_end(); break;
