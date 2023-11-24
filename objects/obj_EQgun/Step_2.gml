@@ -35,6 +35,7 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 				  direction = other.image_angle + random_range(-1, 1) ;
 				  image_angle = direction;
 				}
+				audio_play_sound(S_shutgun,10,false);
 				
 			}
 		}

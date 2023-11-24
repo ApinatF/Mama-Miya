@@ -5,9 +5,9 @@
 	state = PLAYING;
 	isDead = false;
 	
+	dieCd = 10;
 	
-	
-	t_min = 10;
+	t_min = dieCd;
 	t_sec = 0;
 	t_mil = 0;
 	

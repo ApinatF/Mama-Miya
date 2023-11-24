@@ -56,6 +56,7 @@
     {"id":{"name":"MenuFont","path":"fonts/MenuFont/MenuFont.yy",},},
     {"id":{"name":"obj_bullet02","path":"objects/obj_bullet02/obj_bullet02.yy",},},
     {"id":{"name":"monDie","path":"sounds/monDie/monDie.yy",},},
+    {"id":{"name":"S_shutgun","path":"sounds/S_shutgun/S_shutgun.yy",},},
     {"id":{"name":"Sprite6","path":"sprites/Sprite6/Sprite6.yy",},},
     {"id":{"name":"obj_Borigin","path":"objects/obj_Borigin/obj_Borigin.yy",},},
     {"id":{"name":"spr_e1_F_J","path":"sprites/spr_e1_F_J/spr_e1_F_J.yy",},},

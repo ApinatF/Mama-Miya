@@ -7,7 +7,7 @@ if(playerHp <= 0)
 		{
 			direction = other.hitfrom ;
 			hSpeed = lengthdir_x(3, direction);
-			vSpeed = lengthdir_y(3, direction)  ;
+			vSpeed = lengthdir_y(3, direction - 2)  ;
 			if (sign(hSpeed) != 0) 
 			{
 			    image_xscale = sign(hSpeed) ;
@@ -15,7 +15,7 @@ if(playerHp <= 0)
 		}
 			direction = other.hitfrom ;
 			hSpeed = lengthdir_x(3, direction);
-			vSpeed = lengthdir_y(3, direction) ;
+			vSpeed = lengthdir_y(3, direction + 2) ;
 			if (sign(hSpeed) != 0) 
 			{
 			    image_xscale = sign(hSpeed) ;
@@ -23,7 +23,7 @@ if(playerHp <= 0)
 			{
 		with(obj_game_manager) 
 		{
-			alarm_set(0, 10 * 60);
+			alarm_set(0, obj_game_manager.dieCd * 60);
 		}
 	}
 			

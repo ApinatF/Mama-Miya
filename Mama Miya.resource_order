@@ -32,6 +32,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_e1","order":1,"path":"objects/obj_e1/obj_e1.yy",},
     {"name":"obj_bullet02","order":5,"path":"objects/obj_bullet02/obj_bullet02.yy",},
+    {"name":"S_shutgun","order":1,"path":"sounds/S_shutgun/S_shutgun.yy",},
     {"name":"Sprite6","order":4,"path":"sprites/Sprite6/Sprite6.yy",},
     {"name":"obj_Borigin","order":4,"path":"objects/obj_Borigin/obj_Borigin.yy",},
     {"name":"spr_e1_F_J","order":2,"path":"sprites/spr_e1_F_J/spr_e1_F_J.yy",},
