@@ -1,7 +1,10 @@
 
-//SlideTransition(TRAN_MODE.RESTRAT) ;
+if (state == PAUSED)
+	{
+		room_restart();
+	}
 
-room_restart();
+
 
 
 
