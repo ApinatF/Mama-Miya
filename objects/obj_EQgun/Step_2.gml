@@ -11,7 +11,7 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 	recoil = setRec;
     firingDelay = setFiD;
 	GG = random_range(0, 9);
-		if (ammo == 1) 
+		if (ammo == 0) 
 		{
 			
 		}

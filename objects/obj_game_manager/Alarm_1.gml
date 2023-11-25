@@ -6,18 +6,18 @@
 	if(t_mil = -1) 
 	{
 		t_mil = 9;
-		t_sec -= 1;
+		t_sect -= 1;
 	}
 	
-	if(t_sec = -1)
+	if(t_sect = -1)
 	{
-		t_sec = 5;
+		t_sect = 5;
 		t_min -= 1;
 	}
 	
-	if !(t_sec = 0 && t_min = 0 && t_mil = 0)
+	if !(t_sect = 0 && t_min = 0 && t_mil = 0)
 	{
-	alarm_set(1,12) 
+	alarm_set(1,6) 
 	}
 
 

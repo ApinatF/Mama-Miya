@@ -1,19 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_blocks",
+  "name": "obj_a02_D",
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Blocks",
-    "path": "folders/Objects/Platform/Blocks.yy",
+    "name": "E_D",
+    "path": "folders/Objects/Characters/Enemy/E_D.yy",
   },
   "parentObjectId": {
-    "name": "obj_Borigin",
-    "path": "objects/obj_Borigin/obj_Borigin.yy",
+    "name": "obj_E_D",
+    "path": "objects/obj_E_D/obj_E_D.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -31,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Spr_grass_floor",
-    "path": "sprites/Spr_grass_floor/Spr_grass_floor.yy",
+    "name": "spr_A1_D",
+    "path": "sprites/spr_A1_D/spr_A1_D.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -9,10 +9,13 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemy",
-    "path": "folders/Objects/Characters/Enemy.yy",
+    "name": "E_D",
+    "path": "folders/Objects/Characters/Enemy/E_D.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_E_D",
+    "path": "objects/obj_E_D/obj_E_D.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_e1_dead",
-    "path": "sprites/spr_e1_dead/spr_e1_dead.yy",
+    "name": "spr_M1_dead",
+    "path": "sprites/spr_M1_dead/spr_M1_dead.yy",
   },
   "spriteMaskId": null,
   "visible": true,

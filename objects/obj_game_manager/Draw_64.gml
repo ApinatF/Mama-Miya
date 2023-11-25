@@ -36,13 +36,13 @@ if (isDead)
 		var t = "";
 		t += string(t_min);
 		t += "." ;
-		if (t_sec > 9)
+		if (t_sect > 9)
 		{
-			t += ""+string(t_sec);
+			t += ""+string(t_sect);
 		}
-		if (t_sec < 10)
+		if (t_sect < 10)
 		{
-			t += "0"+string(t_sec)
+			t += "0"+string(t_sect)
 		}
 		t += ".";
 		t += string(t_mil)

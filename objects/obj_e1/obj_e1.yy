@@ -2,12 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_e1",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -15,8 +10,8 @@
     "path": "folders/Objects/Characters/Enemy.yy",
   },
   "parentObjectId": {
-    "name": "obj_unit_orugin",
-    "path": "objects/obj_unit_orugin/obj_unit_orugin.yy",
+    "name": "obj_enemy",
+    "path": "objects/obj_enemy/obj_enemy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -34,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_e1_idle",
-    "path": "sprites/spr_e1_idle/spr_e1_idle.yy",
+    "name": "spr_M1_idle",
+    "path": "sprites/spr_M1_idle/spr_M1_idle.yy",
   },
   "spriteMaskId": {
     "name": "spr_player_idle",
