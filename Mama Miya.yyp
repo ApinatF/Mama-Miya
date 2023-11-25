@@ -111,7 +111,7 @@
     {"id":{"name":"spr_player_fall","path":"sprites/spr_player_fall/spr_player_fall.yy",},},
     {"id":{"name":"spr_A1_D","path":"sprites/spr_A1_D/spr_A1_D.yy",},},
     {"id":{"name":"spr_bullet01","path":"sprites/spr_bullet01/spr_bullet01.yy",},},
-    {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
+    {"id":{"name":"Seq_PlayerHup","path":"sequences/Seq_PlayerHup/Seq_PlayerHup.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
   ],
   "RoomOrderNodes": [

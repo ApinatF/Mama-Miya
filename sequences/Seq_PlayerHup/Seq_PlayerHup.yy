@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSequence",
   "resourceVersion": "1.4",
-  "name": "Sequence1",
+  "name": "Seq_PlayerHup",
   "autoRecord": true,
   "backdropHeight": 768,
   "backdropImageOpacity": 0.5,

@@ -60,7 +60,6 @@
     {"name":"M02","order":2,"path":"rooms/M02/M02.yy",},
     {"name":"obj_a02","order":3,"path":"objects/obj_a02/obj_a02.yy",},
     {"name":"obj_e1_D","order":3,"path":"objects/obj_e1_D/obj_e1_D.yy",},
-    {"name":"obj_score_point","order":4,"path":"objects/obj_score_point/obj_score_point.yy",},
     {"name":"obj_camera","order":4,"path":"objects/obj_camera/obj_camera.yy",},
     {"name":"spr_M1_dead","order":3,"path":"sprites/spr_M1_dead/spr_M1_dead.yy",},
     {"name":"obj_a02_D","order":2,"path":"objects/obj_a02_D/obj_a02_D.yy",},

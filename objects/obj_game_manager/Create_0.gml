@@ -15,6 +15,7 @@
 	cd = 0;
 	
 	surface = surface_create(room_width, room_height);
+	layer_sequence_create("ins_Player", 0, 0, Seq_PlayerHup);
 	
 	
 
