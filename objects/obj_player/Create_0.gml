@@ -15,9 +15,13 @@ myGun = obj_EQgun ;
 instance_create_layer(x, y, "ins_Gun", myGun) ;
 newGun = true ;
 playerHp = 3;
+flash = 0;
 hitfrom = 0;
 
 isDead = false;
+
+Immortal = true
+alarm_set(0,180);
 
 
 

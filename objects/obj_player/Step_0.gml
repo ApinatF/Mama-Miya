@@ -1,4 +1,4 @@
-if(obj_game_manager.state == obj_game_manager.PLAYING) {
+//if(obj_game_manager.state == obj_game_manager.PLAYING) {
 // Player Input 
    // 1.mouse and keyboard
 if  (hascontrol)
@@ -103,7 +103,7 @@ if (!newGun)
 	newGun = true;
 }
 
-}
+
 
 
 

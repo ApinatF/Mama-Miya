@@ -1,4 +1,6 @@
 {
+	
+	//layer_sequence_create("ins_Player", 600, 400, Seq_PlayerHup);
 	PLAYING = 0;
 	PAUSED = 1;
 	
@@ -15,7 +17,7 @@
 	cd = 0;
 	
 	surface = surface_create(room_width, room_height);
-	layer_sequence_create("ins_Player", 0, 0, Seq_PlayerHup);
+	
 	
 	
 

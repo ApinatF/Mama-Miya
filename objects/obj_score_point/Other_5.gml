@@ -1,0 +1,9 @@
+global.point = point;
+
+
+
+
+
+
+
+

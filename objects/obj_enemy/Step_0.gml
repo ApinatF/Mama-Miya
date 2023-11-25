@@ -1,4 +1,4 @@
-if(obj_game_manager.state == obj_game_manager.PLAYING) {
+//if(obj_game_manager.state == obj_game_manager.PLAYING) {
 vSpeed = vSpeed + vGravity ;
 
 // Horizontal event
@@ -50,7 +50,7 @@ else
 
 if (hSpeed != 0) image_xscale = sign(hSpeed) ;
 
-}
+
 else image_index = 1;
 
 

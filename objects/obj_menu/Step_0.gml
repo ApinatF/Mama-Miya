@@ -42,9 +42,15 @@ if(menu_x > gui_width + 150 ) && (menu_committed != -1)
 			}
 			
 		} break;
-		//case 2: 
-		/*case 1: 
-			break;*/
+		/*case 2: 
+		{
+			
+		} */
+		case 1:
+		{
+			url_open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+			game_restart();
+		} break;
 	    case 0: game_end(); break;
 	}
 }

@@ -1,6 +1,5 @@
 
 #macro SAVEFILE "Save.sav"
-tR = room;
 
 
 gui_width = display_get_gui_width();

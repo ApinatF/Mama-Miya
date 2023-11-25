@@ -1,3 +1,6 @@
+
+layer_sequence_create("ins_Player",0,0,Seq_PlayerHup)
+
 // PAUSED 
 {
 	if(state = PAUSED)
@@ -18,12 +21,12 @@
 	}
 }
 // Player Countdown
-if (isDead) 
+if (isDead = true) 
 {
     draw_set_font(MenuFont);
 		draw_set_color(c_black);
 		draw_set_alpha(1.0);
-		draw_surface(surface, 0, 0);
+		//draw_surface(surface, 0, 0);
 		
 		draw_set_alpha(0.4);
 		draw_rectangle(0, 0, room_width, room_height, false);
@@ -50,6 +53,10 @@ if (isDead)
 		
 		draw_text(1920 / 2 , 1080 / 2,$"Countdown { t_min  }" );
 			
+}
+else
+{
+	t_min = 5;
 }
 
 

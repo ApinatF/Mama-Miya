@@ -33,6 +33,11 @@ if (done == 0)
 		vSpeed = 0 ;
 	}
 	y = y + vSpeed ;
+	respawn_timer += 1;
+    
+    // หลังจาก 3 วินาที, สร้าง object ใหม่			
+	alarm_set(0,180)
+	
 }
 
 

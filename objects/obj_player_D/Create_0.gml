@@ -3,6 +3,8 @@ vSpeed = 0;
 vGravity = 0.3;
 done = 0 ;
 
+respawn_timer = 0;
+
 des = 10;
 
 image_speed = 0;

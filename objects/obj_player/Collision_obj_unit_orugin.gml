@@ -1,6 +1,12 @@
 
-
-playerHp -= 1;
+if (Immortal == false)
+{
+	playerHp -= 1;
+}
+else
+{
+	exit;
+}
 
 
 /*
