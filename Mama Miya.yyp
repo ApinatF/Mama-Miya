@@ -71,6 +71,7 @@
     {"id":{"name":"spr_A1_idle","path":"sprites/spr_A1_idle/spr_A1_idle.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"Til_grass_floor","path":"sprites/Til_grass_floor/Til_grass_floor.yy",},},
+    {"id":{"name":"Font3","path":"fonts/Font3/Font3.yy",},},
     {"id":{"name":"Spr_grass_floor","path":"sprites/Spr_grass_floor/Spr_grass_floor.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"spr_handgun","path":"sprites/spr_handgun/spr_handgun.yy",},},
