@@ -17,6 +17,8 @@ newGun = true ;
 playerHp = 3;
 flash = 0;
 hitfrom = 0;
+tpo = false;
+po = 0;
 
 isDead = false;
 

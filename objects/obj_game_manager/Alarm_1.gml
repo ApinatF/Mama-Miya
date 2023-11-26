@@ -11,8 +11,12 @@
 	
 	if(t_sect = -1)
 	{
-		t_sect = 6;
+		t_sect = 6	;
 		t_min -= 1;
+	}
+	if(t_min = -1)
+	{
+		t_min = 0;
 	}
 	
 	if !(t_sect = 0 && t_min = 0 && t_mil = 0)

@@ -52,7 +52,7 @@ if (isDead = true)
 		
 		
 		draw_text(1920 / 2 , 1080 / 2,$" Countdown " );
-		draw_text(1920 / 2 , (1080 / 2)+60,$"{ t_min}" );
+		draw_text(1920 / 2 , (1080 / 2)+60,$"{ t_min }" );
 			
 }
 else
