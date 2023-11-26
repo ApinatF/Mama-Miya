@@ -17,7 +17,7 @@ if (place_meeting(x+hSpeed,y,obj_Borigin) && (!Fly))
 	hSpeed = -hSpeed ;
 }
 
-if (!Fly)
+if (!Fly && (!target))
 {
 x = x + hSpeed;
 }

@@ -5,7 +5,8 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_E_D","path":"objects/obj_E_D/obj_E_D.yy",},"propertyId":{"name":"image_speed","path":"objects/obj_E_D/obj_E_D.yy",},"value":"10",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_E_D","path":"objects/obj_E_D/obj_E_D.yy",},"propertyId":{"name":"image_speed","path":"objects/obj_E_D/obj_E_D.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_E_D","path":"objects/obj_E_D/obj_E_D.yy",},"propertyId":{"name":"final_image","path":"objects/obj_E_D/obj_E_D.yy",},"value":"2",},
   ],
   "parent": {
     "name": "E_D",

@@ -24,7 +24,7 @@ if (done == 0)
 		if (vSpeed > 0) 
 		{
 			done = 1 ;
-			image_index = 1;
+			image_index = final_image;
 			image_speed = 0;
 		}
 	    while (!place_meeting(x,y+sign(vSpeed),obj_Borigin))
