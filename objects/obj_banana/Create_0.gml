@@ -1,3 +1,6 @@
+hp = 10;
+flash = 0;
+hitfrom = 0;
 
 speed = 2;
 
