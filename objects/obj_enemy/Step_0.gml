@@ -1,8 +1,14 @@
 //if(obj_game_manager.state == obj_game_manager.PLAYING) {
 vSpeed = vSpeed + vGravity ;
 
+//don't walk off
+if((grounded) && (afraidofheights) && (!place_meeting(x+hSpeed,y+1,obj_Borigin))&&(!Fly))
+{
+	hSpeed = -hSpeed;
+}
+
 // Horizontal event
-if (place_meeting(x+hSpeed,y,obj_Borigin)) 
+if (place_meeting(x+hSpeed,y,obj_Borigin) && (!Fly)) 
 {
     while (!place_meeting(x+sign(hSpeed),y,obj_Borigin))
 	{
@@ -11,7 +17,10 @@ if (place_meeting(x+hSpeed,y,obj_Borigin))
 	hSpeed = -hSpeed ;
 }
 
-x = x + hSpeed
+if (!Fly)
+{
+x = x + hSpeed;
+}
 
 // Vertical event
 if (place_meeting(x,y+vSpeed,obj_Borigin)) 
@@ -28,6 +37,7 @@ y = y + vSpeed ;
 if (!place_meeting(x, y+1, obj_Borigin)) 
 {
     //sprite_index = spr_e1_F_J ; // jump
+	grounded = false;
 	image_speed = 0 ;
 	if (sign(vSpeed > 0)) 
 	{
@@ -37,6 +47,7 @@ if (!place_meeting(x, y+1, obj_Borigin))
 }
 else 
 {
+	grounded = true;
     image_speed = 1 ;
 	if (hSpeed == 0) 
 	{

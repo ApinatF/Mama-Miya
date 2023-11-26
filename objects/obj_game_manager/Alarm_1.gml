@@ -11,7 +11,7 @@
 	
 	if(t_sect = -1)
 	{
-		t_sect = 5;
+		t_sect = 6;
 		t_min -= 1;
 	}
 	

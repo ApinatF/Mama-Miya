@@ -36,7 +36,7 @@ if (done == 0)
 	respawn_timer += 1;
     
     // หลังจาก 3 วินาที, สร้าง object ใหม่			
-	alarm_set(0,180)
+	alarm_set(0, obj_game_manager.dieCd * 60)
 	
 }
 

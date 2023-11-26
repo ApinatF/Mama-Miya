@@ -1,4 +1,4 @@
-if(obj_game_manager.state == obj_game_manager.PLAYING) {
+if(obj_game_manager.state == obj_game_manager.PLAYING) 
 x = obj_player.x ;
 y = obj_player.y ;
 
@@ -17,15 +17,18 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 		}
 		else
 		{
-			if(isGun <= 1)
+			if(isGun == 1)
 			{
-				with (instance_create_layer(x, y, "ins_Bullet", obj_bullet1)) // สร้างกระสุน
+				with (instance_create_layer(x, y, "ins_Bullet", obj_bulletAk)) // สร้างกระสุน
 				{
-				  speed = 20;
-				  direction = other.image_angle + random_range(-5, 5) ;
+				  speed = 30;
+				  direction = other.image_angle + random_range(-6, 6) ;
 				  image_angle = direction;
 			  
 				}
+					 audio_play_sound(S_fieAK,10,false); 
+				  
+				  	  
 			}
 			else if (isGun == 2)
 			{
@@ -36,8 +39,16 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 				  image_angle = direction;
 				}
 				audio_play_sound(S_shutgun,10,false);
-				
 			}
+			else
+			{
+				with (instance_create_layer(x, y, "ins_Bullet", obj_bulletHandgun)) // สร้างกระสุน
+				{
+				  speed = 50;
+				  direction = other.image_angle + random_range(-2, 2) ;
+				  image_angle = direction;
+			}
+			audio_play_sound(S_handgun,10,false);
 		}
 		
 		ammo --;
@@ -50,7 +61,7 @@ if ((mouse_check_button(mb_left)) && (firingDelay < 0) && !ammo <= 0 )
 			setRec = 2
 			isGun = 0;
 			
-			with(obj_bullet1)
+			with(obj_bulletHandgun)
 			{
 				dm = 1;
 			}

@@ -5,5 +5,5 @@ if (isDead == true)
 }
 else if (isDead == false)
 {
-	dieCd = 5;
+	dieCd = 3;
 }

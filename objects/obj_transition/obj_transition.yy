@@ -11,8 +11,8 @@
   "managed": false,
   "overriddenProperties": [],
   "parent": {
-    "name": "Platform",
-    "path": "folders/Objects/Platform.yy",
+    "name": "Managers",
+    "path": "folders/Objects/Managers.yy",
   },
   "parentObjectId": null,
   "persistent": true,

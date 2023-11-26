@@ -12,7 +12,10 @@
     "name": "Gun",
     "path": "folders/Objects/Gun.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_Item_G_parent",
+    "path": "objects/obj_Item_G_parent/obj_Item_G_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

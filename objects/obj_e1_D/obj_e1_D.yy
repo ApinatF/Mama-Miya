@@ -7,7 +7,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_E_D","path":"objects/obj_E_D/obj_E_D.yy",},"propertyId":{"name":"E_point","path":"objects/obj_E_D/obj_E_D.yy",},"value":"50",},
+  ],
   "parent": {
     "name": "E_D",
     "path": "folders/Objects/Characters/Enemy/E_D.yy",

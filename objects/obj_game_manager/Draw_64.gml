@@ -51,12 +51,13 @@ if (isDead = true)
 		t += string(t_mil)
 		
 		
-		draw_text(1920 / 2 , 1080 / 2,$"Countdown { t_min  }" );
+		draw_text(1920 / 2 , 1080 / 2,$" Countdown " );
+		draw_text(1920 / 2 , (1080 / 2)+60,$"{ t_min  }" );
 			
 }
 else
 {
-	t_min = 5;
+	t_min = dieCd;
 }
 
 

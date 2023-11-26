@@ -3,7 +3,13 @@
 		
 		
 		
-		draw_sprite(Sprite7,0,(1920/2),0);
+		{ 
+			
+			draw_sprite(Sprite7,0,(1920/2),0);
+		}
+		
+		
+		
 		draw_set_font(playerUi);
 		draw_set_color(c_red);
 		draw_set_halign(fa_middle);

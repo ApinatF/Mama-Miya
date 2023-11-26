@@ -7,7 +7,7 @@
 	state = PLAYING;
 	isDead = false;
 	
-	dieCd = 5;
+	dieCd = 3;
 	
 	t_min = dieCd;
 	t_sect = 0;
