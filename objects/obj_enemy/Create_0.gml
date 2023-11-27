@@ -17,9 +17,11 @@ hitfrom = 0;
 // Rate Drop
 //item_Drop1 = obj_ak;
 //item_Drop2 = obj_shutgun ;
-item_Drop3 =    obj_ak   ;
+//item_Drop3 =    obj_ak   ;
 item_Drop4 =   obj_shutgun    ;
 rdd = 0;
+
+Drop_item = obj_ak;
 
 
 

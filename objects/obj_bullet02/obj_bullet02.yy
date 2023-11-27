@@ -13,7 +13,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Gun",
-    "path": "folders/Objects/Gun.yy",
+    "path": "folders/Objects/Item/Gun.yy",
   },
   "parentObjectId": null,
   "persistent": false,

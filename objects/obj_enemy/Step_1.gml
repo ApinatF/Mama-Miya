@@ -11,12 +11,23 @@ if (hp <= 0)
 		    image_xscale = sign(hSpeed) ;
 		}
 	}
-	rdd = random_range(0, 2);
-	if(rdd < 1)
+	
+	//rdd = random_range(0, 2);
+	
+	if(rdd <= 1)
 	{
-		item_Drop1 = obj_shutgun;
+		Drop_item = item_Drop1;
 	}
-	with (instance_create_layer(x, y, layer, item_Drop1))
+	else if (rdd > 1 && rdd <5)
+	{
+		Drop_item = item_Drop2;
+	}
+	else
+	{
+		Drop_item = item_Drop3;
+	}
+	
+	with (instance_create_layer(x, y, layer, Drop_item))
 	{
 		direction = other.hitfrom ;
 		hSpeed = lengthdir_x(3, direction);

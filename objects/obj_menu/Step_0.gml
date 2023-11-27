@@ -5,16 +5,19 @@ if (menu_control)
 {
     if (keyboard_check_pressed(vk_up))
 	{
+		audio_play_sound(S_move_arrow,5,false);
 		menu_cursor++;
 		if (menu_cursor >= menu_item) menu_cursor = 0;
 	}
 	if (keyboard_check_pressed(vk_down))
 	{
+		audio_play_sound(S_move_arrow,5,false);
 		menu_cursor--;
 		if (menu_cursor  < 0) menu_cursor = menu_item-1;
 	}
 	if (keyboard_check_pressed(vk_enter))
 	{
+		audio_play_sound(S_enter,5,false);
 		menu_x_target = gui_width + 300;
 		menu_committed = menu_cursor;
 		menu_control = false;

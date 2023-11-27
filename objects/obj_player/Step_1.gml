@@ -26,8 +26,7 @@ if(playerHp <= 0)
 		{
 			alarm_set(0, obj_game_manager.dieCd * 60);
 		}*/
-	
-			
+			obj_score_point.PHeart -= 1;
 			instance_destroy(obj_EQgun);
 			
 			instance_destroy();
