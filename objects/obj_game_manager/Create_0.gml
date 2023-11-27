@@ -5,9 +5,18 @@
 	PAUSED = 1;
 	
 	state = PLAYING;
-	isDead = false;
+	if(room == R_Gameover)
+	{
+		isDead = true;
+		dieCd = 10;
+	}
+	else
+	{
+		isDead = false;
+		dieCd = 3;
+	}
 	
-	dieCd = 3;
+	
 	
 	t_min = dieCd;
 	t_sect = 0;

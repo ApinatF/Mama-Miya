@@ -5,7 +5,7 @@
  // Uihup
 		{ 
 			
-			draw_sprite(Sprite7,0,(1920/2),0);
+			draw_sprite(Spr_player_ui,0,(1920/2),0);
 			
 			draw_sprite(spr_heart,true,1700,120);
 			

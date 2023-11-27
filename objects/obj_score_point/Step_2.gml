@@ -2,7 +2,7 @@
 
 if(PHeart <= 0)
 {
-	game_restart();
+	SlideTransition(TRAN_MODE.GOTO, R_Gameover);
 }
 
 

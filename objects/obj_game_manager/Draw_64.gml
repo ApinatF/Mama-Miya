@@ -3,7 +3,7 @@ layer_sequence_create("ins_Player",0,0,Seq_PlayerHup)
 
 // PAUSED 
 {
-	if(state = PAUSED)
+	if(state == PAUSED)
 	{
 		draw_set_font(MenuFont);
 		draw_set_color(c_black);
@@ -21,7 +21,7 @@ layer_sequence_create("ins_Player",0,0,Seq_PlayerHup)
 	}
 }
 // Player Countdown
-if (isDead = true) 
+if (isDead == true) 
 {
     draw_set_font(MenuFont);
 		draw_set_color(c_black);
@@ -52,7 +52,7 @@ if (isDead = true)
 		
 		
 		draw_text(1920 / 2 , 1080 / 2,$" Countdown " );
-		draw_text(1920 / 2 , (1080 / 2)+60,$"{ t_min }" );
+		draw_text(1920 / 2 , (1080 / 2)+60,$"{ t_min}" );
 			
 }
 else
