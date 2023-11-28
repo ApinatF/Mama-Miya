@@ -36,7 +36,7 @@ if (room == R_end)
 		draw_set_color(c_red);
 		draw_set_halign(fa_center);
 		draw_set_halign(fa_top);
-		draw_text(200 , 400 ,$"Your Calories = {obj_score_point.point}   " );
+		draw_text(200 , 400 ,$"Your Kilo Calories = {obj_score_point.point}   " );
 	
 	}
 	

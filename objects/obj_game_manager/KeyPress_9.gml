@@ -1,4 +1,4 @@
-if(room == !R_Gameover || room == !R_end )
+if(room == M01 || room == M02 || room == M_Boss )
 {
 
 	if (state == PLAYING && isDead == false )

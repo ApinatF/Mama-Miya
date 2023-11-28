@@ -18,13 +18,17 @@ if (hp <= 0)
 	{
 		Drop_item = item_Drop1;
 	}
-	else if (rdd > 1 && rdd <5)
+	else if (rdd > 1 && rdd <7)
 	{
 		Drop_item = item_Drop2;
 	}
-	else
+	else if(rdd > 7 && rdd <12)
 	{
 		Drop_item = item_Drop3;
+	}
+	else
+	{
+		Drop_item = obj_lost;
 	}
 	
 	with (instance_create_layer(x, y, layer, Drop_item))

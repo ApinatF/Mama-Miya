@@ -19,7 +19,7 @@ if(room != R_end)
 		draw_set_color(c_red);
 		draw_set_halign(fa_left);
 		draw_set_halign(fa_top);
-		draw_text(50 , 140 ,$"Calories:{point}" ); 
+		draw_text(50 , 140 ,$"Kcal:{point}" ); 
 	}
 	
 // playerHeart

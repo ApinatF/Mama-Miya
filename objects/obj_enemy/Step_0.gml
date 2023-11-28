@@ -1,6 +1,6 @@
 //if(obj_game_manager.state == obj_game_manager.PLAYING) {
 vSpeed = vSpeed + vGravity ;
-rdd = random_range(0, 10);
+rdd = random_range(0, 20);
 
 //don't walk off
 if((grounded) && (afraidofheights) && (!place_meeting(x+hSpeed,y+1,obj_Borigin))&&(!Fly))
