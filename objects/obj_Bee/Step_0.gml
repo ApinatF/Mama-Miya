@@ -14,7 +14,7 @@ var Bee_target = collision_rectangle(x + -500, y + -500, x + 500, y + 500, obj_p
 if((Bee_target))
 {
 	// Set Speed
-	speed = 6;
+	speed = 5;
 
 	// Set Point Direction
 	direction = point_direction(x, y, obj_player.x, obj_player.y);

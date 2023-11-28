@@ -24,6 +24,7 @@ menu[0] = "Quit Game" ;
 menu_item = array_length_1d(menu);
 menu_cursor = 4;
 
+OpenTutorial = false;
 
 
 

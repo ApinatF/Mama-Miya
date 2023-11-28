@@ -42,6 +42,11 @@ if (mode != TRAN_MODE.INTRO)
 	
 }
 
+if (room == !Main_Menu)
+{
+	OpenTutorial = false;
+}
+
 // hello = SlideTransition
 
 

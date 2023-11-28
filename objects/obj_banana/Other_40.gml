@@ -1,7 +1,0 @@
-instance_destroy();
-
-
-
-
-
-

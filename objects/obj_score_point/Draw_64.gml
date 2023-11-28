@@ -1,7 +1,8 @@
 		
 		
 		
-		
+if(room != R_end)
+{		
  // Uihup
 		{ 
 			
@@ -29,6 +30,7 @@
 		draw_set_halign(fa_top);
 		draw_text( 1750, 140 ,$"X {PHeart} " );
 	}
+}
 		
 		
 

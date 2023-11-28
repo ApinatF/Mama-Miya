@@ -1,4 +1,4 @@
-
+if(room == !R_Gameover || room == !R_end )
 {
 
 	if (state == PLAYING && isDead == false )

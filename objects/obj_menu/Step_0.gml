@@ -18,7 +18,7 @@ if (menu_control)
 	if (keyboard_check_pressed(vk_enter))
 	{
 		audio_play_sound(S_enter,5,false);
-		menu_x_target = gui_width + 300;
+		menu_x_target = gui_width + 700;
 		menu_committed = menu_cursor;
 		menu_control = false;
 	}
@@ -45,10 +45,10 @@ if(menu_x > gui_width + 150 ) && (menu_committed != -1)
 			}
 			
 		} break;
-		/*case 2: 
+		case 2: 
 		{
-			
-		} */
+			instance_create_layer(0,0,layer,obj_Tutorial);
+		} break;
 		case 1:
 		{
 			url_open("https://www.youtube.com/watch?v=dQw4w9WgXcQ");

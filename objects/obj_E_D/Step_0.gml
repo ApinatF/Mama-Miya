@@ -1,6 +1,5 @@
 
 
-
 if (done == 0)
 {
 	vSpeed = vSpeed + vGravity ;

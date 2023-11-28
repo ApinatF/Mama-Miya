@@ -9,6 +9,7 @@
 	{
 		isDead = true;
 		dieCd = 10;
+		alarm_set(2,60)
 	}
 	else
 	{
@@ -24,8 +25,9 @@
 	
 	
 	cd = 0;
+	TR = false;
 	
-	surface = surface_create(room_width, room_height);
+	surface = surface_create(2000, 2000);
 	
 	
 	

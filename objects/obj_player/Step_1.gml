@@ -35,19 +35,17 @@ if(playerHp <= 0)
 
 if(Immortal == true)
 {
-	flash++;
-	if(flash > 1)
+	
+	if(flash <=0)
 	{
-		image_alpha = 0.8
+		flash += 180;
+		alarm_set(2,10);
 	}
-	else
-	{
-		image_alpha = 0.5
-		flash = -1;
-	}
+	image_alpha = 0.6
+	
 	
 }
-else
+else if (Immortal == false)
 {
 	image_alpha = 1;
 }

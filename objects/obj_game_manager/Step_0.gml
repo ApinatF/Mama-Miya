@@ -1,18 +1,12 @@
 
-if (isDead == true && alarm[2] <=0 ) 
+if (isDead == true ) 
 {		
-	if (room == R_Gameover)
+	if(TR == false)
 	{
-		
-		alarm_set(2,1)
-		
-		
+		TR = true;
+		alarm_set(2,60);
 	}
-	else 
-	{
-		alarm_set(1,1);
-		alarm_set(0,dieCd* 60);
-	}
+	
 	
 }
 else if (isDead == false)
@@ -20,9 +14,10 @@ else if (isDead == false)
 	dieCd = 3;
 }
 
-if(t_min <= 0)
+if(room == R_Gameover && dieCd < 0)
 {
-	t_min = 0;
+	game_restart();
+	
 }
 	
 	

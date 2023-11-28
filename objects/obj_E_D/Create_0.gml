@@ -5,7 +5,7 @@ done = 0 ;
 
 
 //image_speed = 0;
-audio_play_sound(monDie,10,false);
+audio_play_sound(D_Sound,10,false);
 
 
 

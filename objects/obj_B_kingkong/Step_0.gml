@@ -10,9 +10,14 @@
 // Inherit the parent event
 //event_inherited();
 
-var KK = collision_rectangle(x + -2000, y + -2000, x + 2000, y + 2000, obj_player, true, 1);
+var KK = collision_rectangle(x + -1000, y + -1000, x + 1000, y + 1000, obj_player, true, 1);
 if((KK))
 {
+	if (see == false)
+	{
+		audio_play_sound(S_Boss_F,6,false);
+		see = true;
+	}
 	// Set Speed
 	//speed = 2;
 
