@@ -4,7 +4,9 @@
   "name": "obj_e1",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"propertyId":{"name":"hp","path":"objects/obj_enemy/obj_enemy.yy",},"value":"15",},
+  ],
   "parent": {
     "name": "Enemy",
     "path": "folders/Objects/Characters/Enemy.yy",

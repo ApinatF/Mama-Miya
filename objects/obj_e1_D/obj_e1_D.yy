@@ -8,7 +8,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_E_D","path":"objects/obj_E_D/obj_E_D.yy",},"propertyId":{"name":"E_point","path":"objects/obj_E_D/obj_E_D.yy",},"value":"50",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_E_D","path":"objects/obj_E_D/obj_E_D.yy",},"propertyId":{"name":"E_point","path":"objects/obj_E_D/obj_E_D.yy",},"value":"30",},
   ],
   "parent": {
     "name": "E_D",

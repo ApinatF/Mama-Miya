@@ -7,7 +7,7 @@ if( room == Main_Menu || room == M01 || room == M02)
 }
 else if( room == M_Boss)
 {
-	
+
 	audio_play_sound(S_Boss_room, 2, true);
 }
 

@@ -1,6 +1,6 @@
 {
 	
-	//layer_sequence_create("ins_Player", 600, 400, Seq_PlayerHup);
+	
 	PLAYING = 0;
 	PAUSED = 1;
 	

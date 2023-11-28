@@ -1,5 +1,5 @@
 
-if (room == M01)
+if (room == M01 || room == Main_Menu)
 {
 	
 point = 0;

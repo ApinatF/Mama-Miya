@@ -1,5 +1,5 @@
 
-layer_sequence_create("ins_Player",0,0,Seq_PlayerHup)
+
 
 // PAUSED 
 {
@@ -18,6 +18,13 @@ layer_sequence_create("ins_Player",0,0,Seq_PlayerHup)
 		draw_set_halign(fa_center);
 		draw_set_halign(fa_middle);
 		draw_text(1920 / 2 , 1080 / 2," PAUSED GGEZ " );
+		
+		draw_set_font(playerUi);
+		draw_set_color(c_white);
+		draw_text(100 , (1080 / 2)-500,$"R: Restart " );
+		
+		draw_set_color(c_white);	
+		draw_text( 150, 1020 ,$" Tab: StartGame " );
 	}
 }
 // Player Countdown
@@ -45,6 +52,7 @@ if (isDead == true)
 		
 		draw_text(1920 / 2 , 1080 / 2,$" Countdown " );
 		draw_text(1920 / 2 , (1080 / 2)+60,$"{ dieCd }" );
+		
 			
 }
 else
