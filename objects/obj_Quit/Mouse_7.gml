@@ -10,5 +10,5 @@
 // Inherit the parent event
 event_inherited();
 
-game_restart();
+SlideTransition(TRAN_MODE.GOTO,Main_Menu);
 

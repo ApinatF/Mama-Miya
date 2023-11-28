@@ -35,13 +35,13 @@ if(playerHp <= 0)
 
 if(Immortal == true)
 {
-	
+	//effect_create_below(10, 0, 0, 0, $FF0202FF & $ffffff);
 	if(flash <=0)
 	{
 		flash += 180;
 		alarm_set(2,10);
 	}
-	image_alpha = 0.6
+	image_alpha = 0.9
 	
 	
 }

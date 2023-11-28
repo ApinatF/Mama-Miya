@@ -48,7 +48,7 @@ if (room == R_end)
 		draw_text(800 , 600 ,$" By Khxng Me Hmi " );
 		
 		draw_set_font(Ss_f);
-		draw_text(800 , 700 , $"Apinat       Fachaiphum    'Programmer' " );
+		draw_text(800 , 700 , $"Apinat       Fachaiyaphum    'Programmer' " );
 		draw_text(800 , 800 , $"Natthawut Bunsithong    'Artist/Game Designer' " );
 		draw_text(800 , 900 , $"Nopphon   Khongtrakul   'Sound Engineer' " );
 		draw_text(800 , 1000 ,$"Kullanun   Galantakapan  'GameUX/UI/Game Designer' " );
